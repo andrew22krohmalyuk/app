@@ -1,14 +1,26 @@
 .container {
-  position: absolute;
-  top: 30%;
-  left: 10px;
   text-align: center;
 }
 
-.container h2 {
-  font-size: 5rem;
+.input {
+  margin-top: 10px;
+  margin-bottom: 80px;
 }
 
-.container a {
-  font-size: 1.4rem;
+.tableHeaderItem {
+  display: inline-block;
 }
+
+.tableHeaderItem:not(:last-child) {
+  margin-right: 50px;
+}
+
+.columnItem {
+  display: inline-block;
+  text-align: left;
+}
+
+.columnItem:not(:last-child) {
+  margin-right: 130px;
+}
+
